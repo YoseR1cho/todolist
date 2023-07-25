@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="./images/favicon/favicon.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>todolist</title>
+</head>
+<body>
+    <!-- header区域 -->
+    <div class="header">
+        <h1>My ToDo List</h1>
+    </div>
+    <!-- /header区域 -->
+    <!-- add区域 -->
+    <div class="add">
+        <form>
+            <input type="text" class="todo_input active" placeholder="添加待办事宜">
+            <button class="todo_button" type="submit">添加</button>
+        </form>
+    </div>
+    <!-- /add区域 -->
+    <!-- todoList区域 -->
+    <div class="todoList">
+        <div class="timeDisplay">
+            <div class="time_icon"><i></i></div>
+            <div class="datatimer"><span class="datatime"></span></div>
+            <div class="clearList"><span>全部完成</span></div>
+        </div>
+        <div class="myList">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <!-- /todoList区域 -->
+    <script src="./js/main.js"></script>
+    <script src="./js/dataTime.js"></script>
+    <script src="./js/iterator.js"></script>
+</body>
+</html>
